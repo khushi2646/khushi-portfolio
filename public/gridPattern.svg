@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="33">
+  <defs>
+    <pattern id="dashedGrid" width="33" height="33" patternUnits="userSpaceOnUse">
+      <path d="M0 0 H33" stroke="#f1f0f1" stroke-width="1" stroke-dasharray="5,5"/>
+      <path d="M0 0 V33" stroke="#f1f0f1" stroke-width="1" stroke-dasharray="5,5"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#dashedGrid)" />
+</svg>
