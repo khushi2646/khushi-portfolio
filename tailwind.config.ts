@@ -47,11 +47,11 @@ const config: Config = {
         xxs: ['14px', { lineHeight: '16px' }], // 14px for xxs
         xs: ['16px', { lineHeight: '18px' }],  // 16px for xs
         sm: ['18px', { lineHeight: '20px' }],  // 18px for sm
-        md: ['20px', { lineHeight: '22px' }],  // 20px for md
-        md2: ['24px', { lineHeight: '26px' }], // 24px for md2
-        lg: ['32px', { lineHeight: '34px' }],  // 32px for lg
-        lg2: ['36px', { lineHeight: '38px' }], // 36px for lg2
-        xl: ['40px', { lineHeight: '42px' }],  // 40px for xl
+        md: ['20px', { lineHeight: '24px' }],  // 20px for md
+        md2: ['24px', { lineHeight: '28px' }], // 24px for md2
+        lg: ['32px', { lineHeight: '36px' }],  // 32px for lg
+        lg2: ['36px', { lineHeight: '40px' }], // 36px for lg2
+        xl: ['40px', { lineHeight: '48px' }],  // 40px for xl
         '2xl': ['44px', { lineHeight: '46px' }], // 44px for 2xl
         '3xl': ['64px', { lineHeight: '66px' }], // 64px for 3xl
       },

@@ -1,16 +1,18 @@
+import Branding from "./components/home/branding";
+import DigitalProducts from "./components/home/digitalProducts";
+import Hero from "./components/home/hero";
+import HeroBottom from "./components/home/heroBottom";
+
 export default function Home() {
-  const gridStyle = {
-    backgroundImage: `url("/gridPattern.svg")`, // Path to the SVG in your public folder
-    backgroundRepeat: 'repeat',
-    backgroundSize: '99px 99px',
-  };
 
   return (
     <div
-      style={gridStyle}
-      className="min-h-screen flex items-center justify-center bg-FAFAFA"
+      className=" h-full bg-FAFAFA"
     >
-      <h1 className="text-4xl font-bold text-black font-clashGrotesk">Hi</h1>
+      <Hero/>
+      <HeroBottom/>
+      <DigitalProducts/>
+      <Branding/>
     </div>
   );
 }
