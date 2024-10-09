@@ -12,7 +12,7 @@ const HeroBottom = () => {
                     <div className=" text-xxs font-aileron font-normal text-grey-500">Base Location</div>
                 </div>
             </div>
-            <div className="h-0.5 bg-grey-200"></div>
+            <div className="h-0.5 bg-grey-200/60"></div>
         </div>
       </section>
     );

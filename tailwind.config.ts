@@ -55,6 +55,15 @@ const config: Config = {
         '2xl': ['44px', { lineHeight: '46px' }], // 44px for 2xl
         '3xl': ['64px', { lineHeight: '66px' }], // 64px for 3xl
       },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
+      animation: {
+        scroll: 'scroll 10s linear infinite',
+      },
     },
   },
   plugins: [],

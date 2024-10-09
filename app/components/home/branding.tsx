@@ -1,5 +1,35 @@
+"use client";
+
 import Link from "next/link";
-import Image from 'next/image'; // Import Image from 'next/image'
+import Image from "next/image";
+import { useState } from "react";
+
+// CustomLink component to handle the hover effect on the arrow
+const CustomLink = () => {
+  const [hover, setHover] = useState(false);
+
+  return (
+    <Link
+      href={{
+        pathname: "/selected-work",
+        query: { tab: "branding" }, // Passing query parameter to indicate the tab
+      }}
+      className="text-pink-400 bg-pink-100 hover:bg-pink-400 hover:text-pink-100 px-4 py-2 rounded-full text-sm font-semibold font-aileron border border-pink-300 hover:border-pink-600 flex gap-2 items-center text-center"
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
+    >
+      See More{" "}
+      <div className="text-pink-400">
+        <Image
+          src={hover ? "/WhiteArrow.svg" : "/PinkArrow.svg"}
+          alt="Arrow"
+          width={13}
+          height={13}
+        />
+      </div>
+    </Link>
+  );
+};
 
 
 const Branding = () => {
@@ -16,20 +46,7 @@ const Branding = () => {
             </div>
           </div>
           <div className=" ">
-            <Link
-              href="/contact"
-              className="text-pink-400 bg-pink-100 hover:bg-pink-500 px-4 py-2 rounded-full text-sm font-semibold font-aileron border border-pink-300 hover:border-pink-600 flex gap-2 items-center text-center"
-            >
-              See More{" "}
-              <div className=" text-pink-400 ">
-              <Image
-                src="/PinkArrow.svg"
-                alt="Khushi Logo"
-                width={12} // Adjust width and height as needed
-                height={12}
-              />
-              </div>
-            </Link>
+          <CustomLink />
           </div>
         </div>
         <div className="gap-5 flex ">

@@ -19,10 +19,10 @@ const Navbar = () => {
           </div>
           {/* Buttons on the right */}
           <div className="hidden md:flex space-x-2">
-            <Link href="/about" className="text-grey-700 hover:text-pink-400 hover:bg-pink-100 px-4 py-2 rounded-full text-sm font-semibold font-aileron border border-grey-700 hover:border-pink-400 ">
+            <Link href="/selected-work" className="text-grey-700 hover:text-pink-400 bg-[#FAFAFA] hover:bg-pink-100 px-4 py-2 rounded-full text-sm font-semibold font-aileron border border-grey-700 hover:border-pink-400 ">
               Selected Work
             </Link>
-            <Link href="/services" className="text-grey-700 hover:text-pink-400 hover:bg-pink-100 px-4 py-2 rounded-full text-sm font-semibold font-aileron border border-grey-700 hover:border-pink-400 ">
+            <Link href="/about" className="text-grey-700 hover:text-pink-400 bg-[#FAFAFA] hover:bg-pink-100 px-4 py-2 rounded-full text-sm font-semibold font-aileron border border-grey-700 hover:border-pink-400 ">
               About
             </Link>
             <Link href="/contact" className="text-grey-100  bg-pink-400 hover:bg-pink-500 px-4 py-2 rounded-full text-sm font-semibold font-aileron border border-pink-500 hover:border-pink-600 flex gap-2 items-center text-center">
