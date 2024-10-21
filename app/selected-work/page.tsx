@@ -1,7 +1,8 @@
-import Main from "../components/selected-work/main";
+import Main from "@/components/selected-work/main";
 
 
-export default function About() {
+
+export default function SelectedWork() {
 
   return (
     <div

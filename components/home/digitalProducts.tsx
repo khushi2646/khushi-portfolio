@@ -52,8 +52,8 @@ const DigitalProducts = () => {
         </div>
 
         <div className="gap-5 flex">
-          <div className="w-1/2 h-fit bg-grey-100 rounded-xl p-3 space-y-3">
-            <div className="bg-white px-2 py-4 rounded-lg space-y-4">
+          <div className="w-1/2 h-fit bg-grey-100  p-3 space-y-3">
+            <div className="bg-white px-2 py-4  space-y-4">
               <div className="flex items-center justify-between">
                 <div className="font-semibold text-md2 font-aileron text-grey-700">
                   Sicada X
@@ -68,12 +68,12 @@ const DigitalProducts = () => {
                 corporates.
               </div>
             </div>
-            <div className="bg-gray-600 h-[440px] rounded-lg"></div>
+            <div className="bg-gray-600 h-[440px] "></div>
           </div>
 
-          <div className="w-1/2 h-fit bg-grey-100 rounded-xl p-3 space-y-3">
-            <div className="bg-gray-600 h-[440px] rounded-lg"></div>
-            <div className="bg-white px-2 py-4 rounded-lg space-y-4">
+          <div className="w-1/2 h-fit bg-grey-100  p-3 space-y-3">
+            <div className="bg-gray-600 h-[440px] "></div>
+            <div className="bg-white px-2 py-4  space-y-4">
               <div className="flex items-center justify-between">
                 <div className="font-semibold text-md2 font-aileron text-grey-700">
                   Sicada X

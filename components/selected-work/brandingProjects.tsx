@@ -29,10 +29,10 @@ const BrandingProjects = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="w-full bg-grey-100 rounded-xl p-3 space-y-3"
+              className="w-full bg-grey-100  p-3 space-y-3"
             >
               {/* Project Title and Year */}
-              <div className="bg-white px-3 py-4 rounded-lg space-y-4">
+              <div className="bg-white px-3 py-4  space-y-4">
                 <div className="flex items-center justify-between">
                   <div className="font-semibold text-md2 font-aileron text-grey-700">
                     {project.title} {project.year}
@@ -41,11 +41,11 @@ const BrandingProjects = () => {
               </div>
   
               {/* Project Image */}
-              <div className="bg-gray-600 aspect-square rounded-lg">
+              <div className="bg-gray-600 aspect-square ">
                 <img
                   src={project.imageUrl}
                   alt={`${project.title} image`}
-                  className="w-full h-full object-cover rounded-lg"
+                  className="w-full h-full object-cover "
                 />
               </div>
             </div>

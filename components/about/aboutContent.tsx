@@ -38,19 +38,19 @@ const AboutContent = () => {
               Industries I’ve Worked In
             </div>
             <div className="w-[45%] gap-4 flex">
-              <div className=" text-sm px-3 py-2 bg-pink-200 rounded-sm w-fit font-aileron text-pink-700 font-semibold">
+              <div className=" text-sm px-3 py-2 bg-pink-200 border border-pink-300 rounded-sm w-fit font-aileron text-pink-700 font-semibold">
                 Fintech
               </div>
-              <div className=" text-sm px-3 py-2 bg-pink-200 rounded-sm w-fit font-aileron text-pink-700 font-semibold">
+              <div className=" text-sm px-3 py-2 bg-pink-200 border border-pink-300 rounded-sm w-fit font-aileron text-pink-700 font-semibold">
                 Web3
               </div>{" "}
-              <div className=" text-sm px-3 py-2 bg-pink-200 rounded-sm w-fit font-aileron text-pink-700 font-semibold">
+              <div className=" text-sm px-3 py-2 bg-pink-200 border border-pink-300 rounded-sm w-fit font-aileron text-pink-700 font-semibold">
                 AI
               </div>{" "}
-              <div className=" text-sm px-3 py-2 bg-pink-200 rounded-sm w-fit font-aileron text-pink-700 font-semibold">
+              <div className=" text-sm px-3 py-2 bg-pink-200 border border-pink-300 rounded-sm w-fit font-aileron text-pink-700 font-semibold">
                 eCommerce
               </div>
-              <div className=" text-sm px-3 py-2 bg-pink-200 rounded-sm w-fit font-aileron text-pink-700 font-semibold">
+              <div className=" text-sm px-3 py-2 bg-pink-200 border border-pink-300 rounded-sm w-fit font-aileron text-pink-700 font-semibold">
                 B2B Marketplaces
               </div>
             </div>

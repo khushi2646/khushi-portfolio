@@ -1,8 +1,9 @@
-import Branding from "./components/home/branding";
-import DigitalProducts from "./components/home/digitalProducts";
-import HelpWith from "./components/home/helpWith";
-import Hero from "./components/home/hero";
-import HeroBottom from "./components/home/heroBottom";
+import Branding from "@/components/home/branding";
+import DigitalProducts from "@/components/home/digitalProducts";
+import HelpWith from "@/components/home/helpWith";
+import Hero from "@/components/home/hero";
+import HeroBottom from "@/components/home/heroBottom";
+
 
 export default function Home() {
 

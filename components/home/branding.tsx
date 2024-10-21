@@ -50,32 +50,32 @@ const Branding = () => {
           </div>
         </div>
         <div className="gap-5 flex ">
-            <div className="w-1/3 h-fit bg-grey-100 rounded-xl p-3 space-y-3 ">
-            <div className="bg-white px-2 py-4 rounded-lg space-y-4">
+            <div className="w-1/3 h-fit bg-grey-100  p-3 space-y-3 ">
+            <div className="bg-white px-2 py-4  space-y-4">
                 <div className="flex items-center justify-between">
                 <div className=" font-semibold text-md2 font-aileron text-grey-700">Sicada X</div>
                 <div className=" font-semibold text-md2 font-aileron text-grey-500">2024</div>
                 </div>
             </div>
-            <div className="bg-gray-600 aspect-square rounded-lg"></div>
+            <div className="bg-gray-600 aspect-square "></div>
             </div>
-            <div className="w-1/3 h-fit bg-grey-100 rounded-xl p-3 space-y-3 ">
-            <div className="bg-white px-2 py-4 rounded-lg space-y-4">
+            <div className="w-1/3 h-fit bg-grey-100  p-3 space-y-3 ">
+            <div className="bg-white px-2 py-4  space-y-4">
                 <div className="flex items-center justify-between">
                 <div className=" font-semibold text-md2 font-aileron text-grey-700">Sicada X</div>
                 <div className=" font-semibold text-md2 font-aileron text-grey-500">2024</div>
                 </div>
             </div>
-            <div className="bg-gray-600 aspect-square rounded-lg"></div>
+            <div className="bg-gray-600 aspect-square "></div>
             </div>
-            <div className="w-1/3 h-fit bg-grey-100 rounded-xl p-3 space-y-3 ">
-            <div className="bg-white px-2 py-4 rounded-lg space-y-4">
+            <div className="w-1/3 h-fit bg-grey-100  p-3 space-y-3 ">
+            <div className="bg-white px-2 py-4  space-y-4">
                 <div className="flex items-center justify-between">
                 <div className=" font-semibold text-md2 font-aileron text-grey-700">Sicada X</div>
                 <div className=" font-semibold text-md2 font-aileron text-grey-500">2024</div>
                 </div>
             </div>
-            <div className="bg-gray-600 aspect-square rounded-lg"></div>
+            <div className="bg-gray-600 aspect-square "></div>
             </div>
             
 

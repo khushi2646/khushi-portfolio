@@ -12,7 +12,7 @@ const ReachOut = () => {
             </div>
             <div className="w-[45%] flex flex-col">
               {/* Email link */}
-              <div className="text-md font font-aileron font-normal text-grey-600 py-6 border-b border-grey-200">
+              <div className="text-md font font-aileron font-medium text-grey-600 py-6 border-b border-grey-200">
                 Email me at{" "}
                 <a
                   href="mailto:khushi@dotenv.in"
@@ -23,7 +23,7 @@ const ReachOut = () => {
               </div>
 
               {/* LinkedIn link */}
-              <div className="text-md font font-aileron font-normal text-grey-600 hover:text-pink-500 hover:underline py-6 border-b border-grey-200">
+              <div className="text-md font font-aileron font-medium text-grey-600 hover:text-pink-500 hover:underline py-6 border-b border-grey-200">
                 <a
                   href="https://www.linkedin.com/in/your-linkedin-profile"
                   target="_blank"
@@ -34,7 +34,7 @@ const ReachOut = () => {
               </div>
 
               {/* Download CV link */}
-              <div className="text-md font font-aileron font-normal text-grey-600 hover:text-pink-500 hover:underline py-6 border-b border-grey-200">
+              <div className="text-md font font-aileron font-medium text-grey-600 hover:text-pink-500 hover:underline py-6 border-b border-grey-200">
                 <a
                   href="/path-to-cv.pdf"
                   download

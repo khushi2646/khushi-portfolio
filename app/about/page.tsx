@@ -1,8 +1,9 @@
-import AboutContent from "../components/about/aboutContent";
-import Carousel from "../components/about/carousel";
-import Hero from "../components/about/hero";
-import ReachOut from "../components/about/reachOut";
-import WorkExperience from "../components/about/workExperience";
+import AboutContent from "@/components/about/aboutContent";
+import Carousel from "@/components/about/carousel";
+import Hero from "@/components/about/hero";
+import ReachOut from "@/components/about/reachOut";
+import WorkExperience from "@/components/about/workExperience";
+
 
 
 export default function About() {

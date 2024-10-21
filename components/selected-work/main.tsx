@@ -28,9 +28,9 @@ const Main = () => {
         Selected Work
       </div>
       {/* Tab Navigation */}
-      <div className="flex space-x-4 mb-6 bg-grey-100 p-1 rounded-sm w-[28rem]">
+      <div className="flex space-x-4 mb-6 bg-grey-100 p-1 rounded-md w-[28rem]">
         <button
-          className={`px-8 py-4 font-semibold font-aileron text-md rounded-sm w-1/2 ${
+          className={`px-8 py-4 font-semibold font-aileron text-md rounded-md w-1/2 ${
             activeTab === "digital-products"
               ? "text-pink-100 bg-grey-600 "
               : "text-grey-500"
@@ -40,7 +40,7 @@ const Main = () => {
           Digital Products
         </button>
         <button
-          className={`px-8 py-4 font-semibold font-aileron text-md rounded-sm w-1/2 ${
+          className={`px-8 py-4 font-semibold font-aileron text-md rounded-md w-1/2 ${
             activeTab === "branding"
               ? "text-pink-100 bg-grey-600 "
               : "text-grey-500"
